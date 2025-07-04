@@ -5,6 +5,9 @@ title = 'Ateleological Anger'
 
 tags = ['fiction','short-story']
 [params]
+    
+    cover = 'https://gcdnb.pbrd.co/images/brPesvJXMNgk.jpg?o=1'
+    covercredit = 'Jan Steen'
     [[author]]
         name = 'Johann Meze'
         about = 'Accomplished Editor in this journal, founder'

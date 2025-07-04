@@ -2,11 +2,17 @@
   {{ .Content }}
   <div class="short-article-container">
     {{ range site.RegularPages }}
-  <article class="short-article">
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-
+    
+    <div class="short-article" style="background-image: url({{.Params.Cover}});">
+      
+  <article>
+    
+    <h2><a href="{{ .RelPermalink }}" style="color:antiquewhite">{{ .LinkTitle }}</a></h2>
+    
+    {{ .Summary }} 
+    <a href="{{ .RelPermalink }}">Read More</a>
   </article>
+    </div>
     
   {{ end }}
   </div>
