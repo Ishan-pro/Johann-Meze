@@ -1,0 +1,155 @@
+body {
+  color: #222;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+  margin: 0.9rem;
+  font-size: 1.1em;
+  background-color: #F8FFF4;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+nav {
+  background-color: #190933;
+  color: #DAF7DC;
+  padding: 0.75rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: min(20vh, 5rem);
+  display: flex;
+  flex-direction: row;
+}
+
+nav a {
+  text-decoration: none;
+  color: #DAF7DC;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: #DAF7DC;
+}
+
+nav h1 {
+  flex-grow: 0.9;
+  margin-left: 1vw;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+  flex-grow: 0.1;
+}
+
+nav li {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.main-content {
+  
+  top: min(20vh, 5rem);
+  padding-right: 1rem;
+}
+
+.short-article-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:min(4rem, 30px);
+  
+}
+
+@media only screen and (min-width: 800px) {
+  .short-article-container {
+    
+  grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+.short-article {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  background-color: #F4F3EE;
+  padding:1rem;
+}
+
+h2 a {
+  color: rgb(94, 94, 94);
+  text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+a {
+  color:#51BBFE;
+  text-decoration: none;
+}
+
+.tags {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color:#5E5E5E;
+
+}
+
+@media only screen and (min-width: 850px) {
+  .tags {
+    
+  grid-column: 1;
+  }
+}
+
+.tags ul {
+  
+  list-style-type: none;
+  display: flex;
+  flex-grow: 0.5;
+}
+
+.tags li {
+  display: inline-block;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.post-detail-grid {
+  display: grid;
+}
+
+
+@media only screen and (min-width: 850px) {
+  .post-detail-grid {
+    
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr;
+  }
+}
+
+
+
+.author-detail {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 850px) {
+  .author-detail {
+    
+  grid-row: 1;
+  grid-column: 2;
+  }
+}

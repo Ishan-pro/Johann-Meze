@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{ .Content }}
+  <div class="short-article-container">
+    {{ range site.RegularPages }}
+  <article class="short-article">
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+
+  </article>
+    
+  {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fiction on Johann Meze</title>
+    <link>/tags/fiction/</link>
+    <description>Recent content in Fiction on Johann Meze</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 03 Jul 2025 15:21:54 +0530</lastBuildDate>
+    <atom:link href="/tags/fiction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ateleological Anger</title>
+      <link>/ateleological-anger/</link>
+      <pubDate>Thu, 03 Jul 2025 15:21:54 +0530</pubDate>
+      <guid>/ateleological-anger/</guid>
+      <description>&lt;p&gt;Hey&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Johann Meze</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Johann Meze</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 03 Jul 2025 15:21:54 +0530</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fiction</title>
+      <link>/tags/fiction/</link>
+      <pubDate>Thu, 03 Jul 2025 15:21:54 +0530</pubDate>
+      <guid>/tags/fiction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Short-Story</title>
+      <link>/tags/short-story/</link>
+      <pubDate>Thu, 03 Jul 2025 15:21:54 +0530</pubDate>
+      <guid>/tags/short-story/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blue</title>
+      <link>/tags/blue/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>/tags/blue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Green</title>
+      <link>/tags/green/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>/tags/green/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Red</title>
+      <link>/tags/red/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>/tags/red/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

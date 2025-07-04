@@ -1,0 +1,12 @@
+<div class="author-detail">
+    {{range .Params.author}}
+    <h2>{{.name}}</h2>
+    <span>
+        Published Works- {{.works}}
+    </span>
+    <p>
+        {{.about}}
+    </p>
+    
+</div>
+{{end}}
