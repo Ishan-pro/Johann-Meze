@@ -153,3 +153,7 @@ a {
   grid-column: 2;
   }
 }
+
+.main-article {
+  padding: 1rem;
+}
